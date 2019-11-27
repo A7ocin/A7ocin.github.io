@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, University of Cagliari, Italy, 2016
+* M.S. in Computer Science, University of Trento, Italy, 2018
+* Ph.D in Computer Vision, University of Trento, Italy, 2022 (expected)
 
 Work experience
 ======
@@ -29,12 +29,13 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computer Vision
+	* Deep Learning for Computer Vision
+	* Human Pose Estimation
+* Computer Graphics and Animation
+	* Unity 3D
+	* Autodesk Maya
+	* Skeleton Pose for Computer Animation
 
 Publications
 ======
@@ -54,6 +55,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<!---Service and leadership--->
+<!---======--->
+<!---* Currently signed in to 43 different slack teams--->
