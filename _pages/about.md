@@ -7,6 +7,7 @@
    - /about/
    - /about.html
  ---
+ 
  This is my personal page!
  
  Content here
