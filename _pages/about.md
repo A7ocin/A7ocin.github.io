@@ -8,5 +8,11 @@ redirect_from:
   - /about.html
 ---
  
-Hi! My name is Nicola, I'm currently a PhD student @UniTN, Italy. My main research topics include Computer Vision and Graphics, Deep Learning and VR/AR.
-In my spare time, I love playing the guitar, drawing and cooking (at least trying to!). Feel free to ask me anything!
+Hi! My name is Nicola, I'm currently a PhD student @UniTN, Italy. 
+My main research topics include 
+* Computer Vision
+* Computer Graphics
+* Deep Learning
+* VR/AR.
+In my spare time, I love playing guitar, drawing and cooking (at least trying to!). 
+Feel free to ask me anything!
