@@ -1,5 +1,5 @@
 ---
-title: "Project Course on Computer Graphics (2020-2021)"
+title: "Project Course on Computer Graphics (2019-20210)"
 collection: teaching
 type: "Project course"
 permalink: /teaching/2019-2020-computer-graphics
@@ -8,7 +8,7 @@ date: 2019-10-01
 location: "Trento, Italy"
 ---
 
-Teaching assistant for the Project Course on Computer Graphics (2020-2021).
+Teaching assistant for the Project Course on Computer Graphics (2019-2020).
 
 Abstract
 ======
