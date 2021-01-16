@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
  
-Hi! My name is Nicola. 
+Hi! My name is Nicola and this is my personal page. 
 I'm a PhD student @UniTN, Trento, Italy (IT). 
 My main research topics include:
 * Computer Vision

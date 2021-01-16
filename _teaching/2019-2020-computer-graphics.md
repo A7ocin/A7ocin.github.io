@@ -1,5 +1,5 @@
 ---
-title: "Project Course on Computer Graphics (2019-20210)"
+title: "Project Course on Computer Graphics (2019-2020)"
 collection: teaching
 type: "Project course"
 permalink: /teaching/2019-2020-computer-graphics

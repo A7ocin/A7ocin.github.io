@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Nicola Garau"
   avatar           : "ng.png"
-  bio              : "PhD student @ University of Trento - Computer Science"
+  bio              : "PhD student @ University of Trento - Computer Vision"
   location         : "Trento, Italy"
-  employer         :
+  employer         : "University of Trento"
   pubmed           : #""
   googlescholar    : "https://scholar.google.com/citations?user=r8BzAfcAAAAJ"
   email            : "nicola.garau@unitn.it"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/alocin/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :

@@ -31,11 +31,15 @@ Skills
 ======
 * Computer Vision
 	* Deep Learning for Computer Vision
-	* Human Pose Estimation
+	* Human Pose Estimation (HPE)
 * Computer Graphics and Animation
 	* Unity 3D
 	* Autodesk Maya
-	* Skeleton Pose for Computer Animation
+	* Computer Animation through HPE
+* Deep Learning
+  * Capsule Networks
+  * Autoencoders
+  * CNNs
 
 Publications
 ======
