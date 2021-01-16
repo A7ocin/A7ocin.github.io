@@ -1,10 +1,10 @@
 ---
-title: "Comunicazioni Multimediali (2019-2020)"
+title: "Comunicazioni Multimediali (2020-2021)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2019-2020-comunicazioni-multimediali
 venue: "Department of Information Engineering and Computer Science, UniTN"
-date: 2019-10-01
+date: 2020-09-14
 location: "Trento, Italy"
 ---
 

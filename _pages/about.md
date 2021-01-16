@@ -16,4 +16,5 @@ My main research topics include:
 * VR/AR
 
 In my spare time, I love playing guitar, drawing and cooking (at least trying to!). 
+
 Feel free to ask me anything!

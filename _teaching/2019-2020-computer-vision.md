@@ -1,5 +1,5 @@
 ---
-title: " Computer Vision and Multimedia Analysis"
+title: " Computer Vision and Multimedia Analysis (2019-2020)"
 collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2019-2020-computer-vision
