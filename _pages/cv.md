@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -17,15 +17,27 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Spring 2018 - Spring 2019: Computer Vision Engineer
+  * Xtensa S.r.l, SICS S.r.l
+  * Duties included: Development of a GPU-powered, high-performing pipeline for real-time, high-resolution video stitching and automatical tactical camera for football teams
+  * Supervisor: Professor Nicola Conci
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2018 - Ongoing: Co-organizer
+  * Unity User Group Trento
+  * Duties included: Local co-organizer for the official Unity User Group in the Trento, TN (IT) area
+
+* Winter 2017 - Ongoing: Co-organizer
+  * Global Game Jam Trento
+  * Duties included: Local co-organizer (Trento, TN, IT) for several Global Game Jam jams
+  
+* Summer 2016: Trainee
+  * Bournemouth University
+  * Duties included: Development of a pipeline for sketch-based character posing using Python for Autodesk Maya
+  * Supervisor: Professors Xiaosong Yang and Zhidong Xiao
+
+* Fall 2015 - Winter 2016: Software Developer
+  * Athlos S.r.l.
+  * Duties included: Development of an italian digital assistant using natural language processing and sentiment analysis
   
 Skills
 ======
