@@ -30,6 +30,11 @@ Work experience
   * Global Game Jam Trento
   * Duties included: Local co-organizer (Trento, TN, IT) for several Global Game Jam jams
   
+* Summer 2017 - Fall 2017: Trainee
+  * Carnegie Mellon University (CMU) Perceptual Computing Lab
+  * Duties included: Python porting of the C++ library OpenPose for human pose estimation
+  * Supervisor: Professors Yaser Sheikh, Ginés Hidalgo
+  
 * Summer 2016: Trainee
   * Bournemouth University
   * Duties included: Development of a pipeline for sketch-based character posing using Python for Autodesk Maya
