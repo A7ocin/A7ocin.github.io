@@ -17,6 +17,11 @@ Education
 
 Work experience
 ======
+* Winter 2018 - Present: Computer Vision Engineer
+  * AUSILIA Project - Presidio Ospedaliero VillaRosa 
+  * Duties included: Leading the development of an autonomous distributed computer vision system for ambient assisted living in hospital contexts.
+  * Supervisor: Professor Nicola Conci
+  * 
 * Spring 2018 - Spring 2019: Computer Vision Engineer
   * Xtensa S.r.l, SICS S.r.l
   * Duties included: Development of a GPU-powered, high-performing pipeline for real-time, high-resolution video stitching and automatical tactical camera for football teams
