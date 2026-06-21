@@ -31,9 +31,6 @@ playwright_scholar_profile/
 # ------------------------------------------------------------
 scholar_articles_output.json
 
-# Generated first-page paper previews
-paper_first_pages/
-
 # Temporary / partial downloads
 *.crdownload
 *.tmp
