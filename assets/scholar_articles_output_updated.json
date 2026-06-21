@@ -1,0 +1,609 @@
+{
+  "updated_at": "2026-06-19T10:51:08",
+  "count": 31,
+  "articles": [
+    {
+      "title": "SDFoam: Signed-Distance Foam for explicit surface reconstruction",
+      "authors": "Antonella Rech, Nicola Conci, and Nicola Garau",
+      "precise_date": "2026",
+      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "year": "2026",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:_kc_bZDykSQC",
+      "bibtex": "@inproceedings{rech2026sdfoam,\n  title={SDFoam: Signed-Distance Foam for explicit surface reconstruction},\n  author={Rech, Antonella and Conci, Nicola and Garau, Nicola},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={300--308\n  year={2026}\n  }",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/3DMV/papers/Rech_SDFoam_Signed-Distance_Foam_for_explicit_surface_reconstruction_CVPRW_2026_paper.pdf",
+      "first_page_png": "paper_first_pages\\SDFoam_Signed-Distance_Foam_for_explicit_surface_reconstruction_970acf0cd1_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2026_sdfoam_signed-distance_foam_for_explicit_surface_r.pdf",
+        "path": "assets/pdf/2026_sdfoam_signed-distance_foam_for_explicit_surface_r.pdf"
+      },
+      "summary": "SDFoam is a surface reconstruction method that combines signed distance fields with a foam-based explicit representation. It aims to recover cleaner, more coherent surfaces by deriving density from an SDF while preserving the controllability and mesh extraction advantages of Voronoi-style cells.",
+      "website": "https://mmlab-cv.github.io/SDFoam/",
+      "code": "https://github.com/mmlab-cv/SDFoam"
+    },
+    {
+      "title": "Tackling Cross-Lingual Generalization in Speech Emotion Recognition via Linguistic Grouping: A Spotlight on Neo-Latin Languages",
+      "authors": "Francesco Ardan Dal Rì, Nicola Garau, and Nicola Conci",
+      "precise_date": "2026/05/11",
+      "venue": "EUSIPCO 2026",
+      "year": "2026",
+      "url": "",
+      "bibtex": "",
+      "pdf_url": "assets/pdf/2026_tackling_cross-lingual_generalization.pdf",
+      "first_page_png": "paper_first_pages\\2026_tackling_cross-lingual_generalization.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2026_tackling_cross-lingual_generalization.pdf",
+        "path": "assets/pdf/2026_tackling_cross-lingual_generalization.pdf"
+      },
+      "summary": "",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Render, Encode, Plan: A simple pipeline for hybrid RL-DL learning inside Unreal Engine",
+      "authors": "Daniele Della Pietra and Nicola Garau",
+      "precise_date": "2025/11/13",
+      "venue": "Computers & Graphics",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:kNdYIx-mwKoC",
+      "bibtex": "@article{della2025render,\n  title={Render, Encode, Plan: A simple pipeline for hybrid RL-DL learning inside Unreal Engine},\n  author={Della Pietra, Daniele and Garau, Nicola},\n  journal={Computers \\& Graphics},\n  pages={104467},\n  year={2025},\n  publisher={Elsevier}\n}",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0097849325003085/pdfft?md5=29e00a7b252895811f07e52fa4ef2dc3&pid=1-s2.0-S0097849325003085-main.pdf",
+      "first_page_png": "paper_first_pages\\Render_Encode_Plan_A_simple_pipeline_for_hybrid_RL-DL_learning_inside_Unreal_Engine_74424cc07b_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2025_render_encode_plan_a_simple_pipeline_for_hybrid_rl.pdf",
+        "path": "assets/pdf/2025_render_encode_plan_a_simple_pipeline_for_hybrid_rl.pdf"
+      },
+      "summary": "Render, Encode, Plan is a hybrid reinforcement-learning and deep-learning pipeline built inside Unreal Engine. It renders visual observations, encodes them into compact representations, and uses them for planning, making simulated visual learning easier to prototype and evaluate.",
+      "website": "https://mmlab-cv.github.io/REP/",
+      "code": "https://github.com/mmlab-cv/REP"
+    },
+    {
+      "title": "Build-A-Volcap: Automated Synthetic Validation of Real-World Volumetric Capture Quality",
+      "authors": "Antonella Rech, Giulia Martinelli, Nicola Garau, Nicola Conci, and Francesco De Natale",
+      "precise_date": "2025/9/14",
+      "venue": "2025 IEEE International Conference on Image Processing Workshops (ICIPW)",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:4TOpqqG69KYC",
+      "bibtex": "@inproceedings{rech2025build,\n  title={Build-A-Volcap: Automated Synthetic Validation of Real-World Volumetric Capture Quality},\n  author={Rech, Antonella and Martinelli, Giulia and Garau, Nicola and Conci, Nicola and De Natale, Francesco},\n  booktitle={2025 IEEE International Conference on Image Processing Workshops (ICIPW)},\n  pages={251--256},\n  year={2025},\n  organization={IEEE}\n  }",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11386141",
+      "first_page_png": "paper_first_pages\\Build-A-Volcap_Automated_Synthetic_Validation_of_Real-World_Volumetric_Capture_Quality_9f8501ac5d_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2025_build-a-volcap_automated_synthetic_validation_of_r.pdf",
+        "path": "assets/pdf/2025_build-a-volcap_automated_synthetic_validation_of_r.pdf"
+      },
+      "summary": "Build-A-Volcap is a synthetic validation framework for predicting the quality of real-world volumetric capture setups. It simulates capture configurations and evaluates reconstruction quality automatically, helping designers assess camera layouts before deploying physical systems.",
+      "website": "https://mmlab-cv.github.io/Build-A-Volcap/",
+      "code": "https://github.com/mmlab-cv/Build-A-Volcap"
+    },
+    {
+      "title": "Drone Agents: learning to fly to learn how to see",
+      "authors": "Daniele Della Pietra, Karthik Govindarajan, Fabrizio Granelli, Andrea Rosani, and Nicola Garau",
+      "precise_date": "2025/8/11",
+      "venue": "2025 IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS)",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:YOwf2qJgpHMC",
+      "bibtex": "@inproceedings{della2025drone,\n  title={Drone Agents: learning to fly to learn how to see},\n  author={Della Pietra, Daniele and Govindarajan, Karthik and Granelli, Fabrizio and Rosani, Andrea and Garau, Nicola},\n  booktitle={2025 IEEE International Conference on Advanced Visual and Signal-Based Systems (AVSS)},\n  pages={1--6},\n  year={2025},\n  organization={IEEE}\n  }",
+      "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11149899",
+      "first_page_png": "paper_first_pages\\Drone_Agents_learning_to_fly_to_learn_how_to_see_c0e415a1a9_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2025_drone_agents_learning_to_fly_to_learn_how_to_see.pdf",
+        "path": "assets/pdf/2025_drone_agents_learning_to_fly_to_learn_how_to_see.pdf"
+      },
+      "summary": "Drone Agents explores embodied visual learning with UAVs, where a drone learns flight behavior that improves what it can observe. The method links navigation and perception, using simulated drone agents to gather better visual evidence for downstream understanding tasks.",
+      "website": "https://mmlab-cv.github.io/DroneAgents/",
+      "code": "https://github.com/mmlab-cv/DroneAgents"
+    },
+    {
+      "title": "To Infinity and Beyond: a GPU-driven memory sharing pipeline to generate and process infinite synthetic data",
+      "authors": "Daniele Della Pietra, Gino Lanzo Hahn, and Nicola Garau",
+      "precise_date": "2025/8/10",
+      "venue": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Posters",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:ULOm3_A8WrAC",
+      "bibtex": "@inproceedings{della2025infinity,\n  title={To Infinity and Beyond: a GPU-driven memory sharing pipeline to generate and process infinite synthetic data},\n  author={Della Pietra, Daniele and Lanzo Hahn, Gino and Garau, Nicola},\n  booktitle={Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Posters},\n  pages={1--2},\n  year={2025}\n  }",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3721250.3742983",
+      "first_page_png": "paper_first_pages\\To_Infinity_and_Beyond_a_GPU-driven_memory_sharing_pipeline_to_generate_and_process_infinite_synthetic_data_acee768ef2_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2025_to_infinity_and_beyond_a_gpu-driven_memory_sharing.pdf",
+        "path": "assets/pdf/2025_to_infinity_and_beyond_a_gpu-driven_memory_sharing.pdf"
+      },
+      "summary": "To Infinity and Beyond presents a GPU-driven memory sharing pipeline for streaming synthetic data directly from a graphics engine to learning code. By avoiding disk-based dataset generation, it enables real-time training or processing over virtually unlimited synthetic scenes.",
+      "website": "https://mmlab-cv.github.io/Infinity/",
+      "code": "https://github.com/mmlab-cv/Infinity"
+    },
+    {
+      "title": "CLaP-Contrast Label Predict: a quest for cheaper labeling in 3D human pose estimation",
+      "authors": "Davide Cavicchini, Alessia Pivotto, Sofia Lorengo, Andrea Rosani, and Nicola Garau",
+      "precise_date": "2025",
+      "venue": "Proceedings of the Winter Conference on Applications of Computer Vision",
+      "year": "2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:3fE2CSJIrl8C",
+      "bibtex": "@inproceedings{cavicchini2025clap,\n    title={CLaP-Contrast Label Predict: a quest for cheaper labeling in 3D human pose estimation},\n    author={Cavicchini, Davide and Pivotto, Alessia and Lorengo, Sofia and Rosani, Andrea and Garau, Nicola},\n    booktitle={Proceedings of the Winter Conference on Applications of Computer Vision},\n    pages={1276--1284},\n    year={2025}\n  }\n  ",
+      "pdf_url": "https://openaccess.thecvf.com/content/WACV2025W/CV4WS/papers/Cavicchini_CLaP_-_Contrast_Label_Predict_a_quest_for_cheaper_labeling_WACVW_2025_paper.pdf",
+      "first_page_png": "paper_first_pages\\CLaP-Contrast_Label_Predict_a_quest_for_cheaper_labeling_in_3D_human_pose_estimation_b9af8da1cc_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2025_clap-contrast_label_predict_a_quest_for_cheaper_la.pdf",
+        "path": "assets/pdf/2025_clap-contrast_label_predict_a_quest_for_cheaper_la.pdf"
+      },
+      "summary": "CLaP is a label-efficient framework for 3D human pose estimation that reduces dependence on expensive 3D annotations. It combines contrastive learning with label prediction to exploit cheaper supervision while preserving useful pose representations.",
+      "website": "https://mmlab-cv.github.io/CLaP/",
+      "code": "https://github.com/mmlab-cv/CLaP"
+    },
+    {
+      "title": "MoMa: Skinned motion retargeting using masked pose modeling",
+      "authors": "Giulia Martinelli, Nicola Garau, Niccolò Bisagno, and Nicola Conci",
+      "precise_date": "2024/12/1",
+      "venue": "Computer Vision and Image Understanding",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:UebtZRa9Y70C",
+      "bibtex": "@article{martinelli2024moma,\n  title={MoMa: Skinned motion retargeting using masked pose modeling},\n  author={Martinelli, Giulia and Garau, Nicola and Bisagno, Niccol{\\'o} and Conci, Nicola},\n  journal={Computer Vision and Image Understanding},\n  volume={249},\n  pages={104141},\n  year={2024},\n  publisher={Elsevier}\n}",
+      "pdf_url": "https://pdf.sciencedirectassets.com/271018/1-s2.0-S1077314224X00107/1-s2.0-S1077314224002224/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCICVh%2F%2BJOvmbF2URkGgh3jI9%2BoHRIBKJu7R9vigG2bzN1AiAhD8vWodGjeJdrVOwjsGKb4zCIJonKmiKJzWuieEu3vSq7BQi3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIMdn9yYWE3xGzuUMWjKo8FGArnJ8FhUNY5bYZECGKMzgiuaH3%2FzsYci25VVwQeUxsOR2ScI%2BMx7f6yTtCC0NdwE0SyjyPfc91Ca4GLxm6sqftLxaI71GQ%2FyURmBM5dhkmXVqkbcFHe%2Bv2TUvUAYUxmze9VLIdo5RMiDJJJdB3gie9qcIJKvvvZJYGv%2FfMvKnywOnenlQoMgmZq0sJRdm503r9jcXdf5Raiz5I9zQKj%2BuYexLOoAcrUWyQBrhglz31IV59SrV2Nmg%2Bu6GYXgib0lou0e5duKRRd8Qgc1z5PXLP9PDH8MskKRyViwtskhUeGLqwIgf2ifqA25kBz3maXQQiko1qahAA8I8qs96emYZ0TLjoyCzCqGIa7wUcxjQ0zzKRDS85bTvVjbmRS%2Bv0q0yLbud7%2BFoqJayfYbI54z4HlGTvnaA5AeMAQoToU0OB7DFu1d8QJMOgmyZ7qfV4yE%2BAhCMQu5azJ%2FgvQ2n5tXOsYkeYADHysb6CSgglW3vfrNnyXqTxNmuGisM8hss0dtIUF0iIiOt%2Be%2B9hUnnNjgUDAMJbdi%2FG%2FwMuPVCgHmakTDSEcmHAIcJhNlYRjbNvxQWfN4xFOpog3NjNGHyVeA8zTI3Xy9SQ%2BPH5GIDh6L%2BvhdAvkb0MmaVI%2BwRPxcKX7vZBDf9odXEsuL0Wx7WcRNQSi6TEtlDywdvwBL7JM4CzpGnij4zgxhN%2B7BXaPBUI4D8BlwTW%2FXXRr%2Fc8YBC0SXomKFBa1XGi3FvvJafK4B2MJuWsFznlyAemql%2FW50t9iK77NhVcWyoO5TVJodhuD8M8VpvtUWvEpPMQsOzUjgtYszuoDaTbyY%2FEUd%2BaJY0EohneNmttJwu6D2SiFVD%2B2n3IDFRlX3CMxvDHH8st3CjCautPRBjqyAS60V3V0Z9T4HP9e%2BN4Maz1F2weV1sBcysRNWHIoiplOkVm1tXTeuqCCjua9krP44F2zpe7jhYeapVa%2FUPakGUMrMXjVh5n3QeQcssNVtFGM0nINTQah3r3kWRD1aiZ4go6HyMu7XSdEHY5NKsHmX6jiFGCn45FrAiIfqPzq0mZnNnEeoL9RUuPwJr7oSN4TU%2BbAqz4PRE2AHZ5Bv4Pk08ww1tgSro4XxXZOJR5vteq8Yc0%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260619T075045Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYLVRXRRD%2F20260619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=67ef26d2baaf2ba9426f5a393c0b33a58ce5d1c807100fbfe9444b03f4806044&hash=4718b5a6f86809172f5c5df954eda87cfdeeee90627b09efcb03ef605308b1f4&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1077314224002224&tid=spdf-17c43264-32be-49b8-9b49-673606ca26ef&sid=04ee1cf8658a7143fd08f6e665b72c19c426gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1312005f07530054065254&rr=a0e0f1d62cafbaf1&cc=it",
+      "first_page_png": "paper_first_pages\\MoMa_Skinned_motion_retargeting_using_masked_pose_modeling_7eb1bda797_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_moma_skinned_motion_retargeting_using_masked_pose.pdf",
+        "path": "assets/pdf/2024_moma_skinned_motion_retargeting_using_masked_pose.pdf"
+      },
+      "summary": "MoMa is a motion retargeting method based on masked pose modeling. It learns to transfer skinned motion across characters and skeletons by reconstructing missing or corrupted pose information, improving robustness to different body structures.",
+      "website": "https://mmlab-cv.github.io/MoMa/",
+      "code": "https://github.com/mmlab-cv/MoMa"
+    },
+    {
+      "title": "Agglomerator++: Interpretable part-whole hierarchies and latent space representations in neural networks",
+      "authors": "Zeno Sambugaro, Nicola Garau, Niccolò Bisagno, and Nicola Conci",
+      "precise_date": "2024/12/1",
+      "venue": "Computer Vision and Image Understanding",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:Se3iqnhoufwC",
+      "bibtex": "@article{sambugaro2024agglomerator++,\n    title={Agglomerator++: Interpretable part-whole hierarchies and latent space representations in neural networks},\n    author={Sambugaro, Zeno and Garau, Nicola and Bisagno, Niccolò and Conci, Nicola},\n    journal={Computer Vision and Image Understanding},\n    volume={249},\n    pages={104159},\n    year={2024},\n    publisher={Elsevier}\n  }\n  ",
+      "pdf_url": "https://pdf.sciencedirectassets.com/271018/1-s2.0-S1077314224X00107/1-s2.0-S1077314224002406/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCICVh%2F%2BJOvmbF2URkGgh3jI9%2BoHRIBKJu7R9vigG2bzN1AiAhD8vWodGjeJdrVOwjsGKb4zCIJonKmiKJzWuieEu3vSq7BQi3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIMdn9yYWE3xGzuUMWjKo8FGArnJ8FhUNY5bYZECGKMzgiuaH3%2FzsYci25VVwQeUxsOR2ScI%2BMx7f6yTtCC0NdwE0SyjyPfc91Ca4GLxm6sqftLxaI71GQ%2FyURmBM5dhkmXVqkbcFHe%2Bv2TUvUAYUxmze9VLIdo5RMiDJJJdB3gie9qcIJKvvvZJYGv%2FfMvKnywOnenlQoMgmZq0sJRdm503r9jcXdf5Raiz5I9zQKj%2BuYexLOoAcrUWyQBrhglz31IV59SrV2Nmg%2Bu6GYXgib0lou0e5duKRRd8Qgc1z5PXLP9PDH8MskKRyViwtskhUeGLqwIgf2ifqA25kBz3maXQQiko1qahAA8I8qs96emYZ0TLjoyCzCqGIa7wUcxjQ0zzKRDS85bTvVjbmRS%2Bv0q0yLbud7%2BFoqJayfYbI54z4HlGTvnaA5AeMAQoToU0OB7DFu1d8QJMOgmyZ7qfV4yE%2BAhCMQu5azJ%2FgvQ2n5tXOsYkeYADHysb6CSgglW3vfrNnyXqTxNmuGisM8hss0dtIUF0iIiOt%2Be%2B9hUnnNjgUDAMJbdi%2FG%2FwMuPVCgHmakTDSEcmHAIcJhNlYRjbNvxQWfN4xFOpog3NjNGHyVeA8zTI3Xy9SQ%2BPH5GIDh6L%2BvhdAvkb0MmaVI%2BwRPxcKX7vZBDf9odXEsuL0Wx7WcRNQSi6TEtlDywdvwBL7JM4CzpGnij4zgxhN%2B7BXaPBUI4D8BlwTW%2FXXRr%2Fc8YBC0SXomKFBa1XGi3FvvJafK4B2MJuWsFznlyAemql%2FW50t9iK77NhVcWyoO5TVJodhuD8M8VpvtUWvEpPMQsOzUjgtYszuoDaTbyY%2FEUd%2BaJY0EohneNmttJwu6D2SiFVD%2B2n3IDFRlX3CMxvDHH8st3CjCautPRBjqyAS60V3V0Z9T4HP9e%2BN4Maz1F2weV1sBcysRNWHIoiplOkVm1tXTeuqCCjua9krP44F2zpe7jhYeapVa%2FUPakGUMrMXjVh5n3QeQcssNVtFGM0nINTQah3r3kWRD1aiZ4go6HyMu7XSdEHY5NKsHmX6jiFGCn45FrAiIfqPzq0mZnNnEeoL9RUuPwJr7oSN4TU%2BbAqz4PRE2AHZ5Bv4Pk08ww1tgSro4XxXZOJR5vteq8Yc0%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260619T075127Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYLVRXRRD%2F20260619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9dafa1f22372c30e9a430b6b2291ee018bbd9ce8c1363cc654048f951aacbecc&hash=bf76e5c538d1f431bf0829d8661b1a6a1aef1e5df00de27aa1c3bbf5ee3ab509&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1077314224002406&tid=spdf-f459a0db-7c00-4a20-8186-65642716b59d&sid=04ee1cf8658a7143fd08f6e665b72c19c426gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1312005f07530057060703&rr=a0e0f2dced0dbaf1&cc=it",
+      "first_page_png": "paper_first_pages\\Agglomerator_Interpretable_part-whole_hierarchies_and_latent_space_representations_in_neural_networks_ce5ad2787a_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_agglomerator_interpretable_part-whole_hierarchies.pdf",
+        "path": "assets/pdf/2024_agglomerator_interpretable_part-whole_hierarchies.pdf"
+      },
+      "summary": "Agglomerator++ studies interpretability in neural networks by building part-whole hierarchies from learned representations. It extends the Agglomerator idea to expose relationships between low-level parts, higher-level concepts, and latent-space structure.",
+      "website": "https://mmlab-cv.github.io/Agglomeratorplusplus/",
+      "code": "https://github.com/mmlab-cv/Agglomeratorplusplus"
+    },
+    {
+      "title": "All skeletons are created equal! a domain adaptation transformer to handle multiple topologies",
+      "authors": "Giulia Martinelli, Nicola Garau, Niccolo Bisagno, and Nicola Conci",
+      "precise_date": "2024/10/27",
+      "venue": "2024 IEEE International Conference on Image Processing (ICIP)",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:0EnyYjriUFMC",
+      "bibtex": "@inproceedings{martinelli2024all,\n  title={All skeletons are created equal! a domain adaptation transformer to handle multiple topologies},\n  author={Martinelli, Giulia and Garau, Nicola and Bisagno, Niccolo and Conci, Nicola},\n  booktitle={2024 IEEE International Conference on Image Processing (ICIP)},\n  pages={2716--2722},\n  year={2024},\n  organization={IEEE}\n}",
+      "pdf_url": "https://ieeexplore.ieee.org/iel8/10647221/10647122/10647746.pdf",
+      "first_page_png": "paper_first_pages\\All_skeletons_are_created_equal_a_domain_adaptation_transformer_to_handle_multiple_topologies_0d7827bdca_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_all_skeletons_are_created_equal_a_domain_adaptatio.pdf",
+        "path": "assets/pdf/2024_all_skeletons_are_created_equal_a_domain_adaptatio.pdf"
+      },
+      "summary": "This paper introduces a domain adaptation transformer for human pose data with different skeleton topologies. It maps heterogeneous joint layouts into a common representation, allowing pose models to transfer more easily across datasets and annotation formats.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Unicrowd simulator: Visual and behavioral fidelity for the generation of crowd datasets",
+      "authors": "Niccolò Bisagno, Antonio Luigi Stefani, Nicola Garau, Francesco De Natale, and Nicola Conci",
+      "precise_date": "2024/10/27",
+      "venue": "2024 IEEE International Conference on Image Processing (ICIP)",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:hqOjcs7Dif8C",
+      "bibtex": "@inproceedings{bisagno2024unicrowd,\n  title={Unicrowd simulator: Visual and behavioral fidelity for the generation of crowd datasets},\n  author={Bisagno, Niccol{\\`o} and Stefani, Antonio Luigi and Garau, Nicola and De Natale, Francesco and Conci, Nicola},\n  booktitle={2024 IEEE International Conference on Image Processing (ICIP)},\n  pages={193--199},\n  year={2024},\n  organization={IEEE}\n}",
+      "pdf_url": "https://ieeexplore.ieee.org/iel8/10647221/10647122/10647887.pdf",
+      "first_page_png": "paper_first_pages\\Unicrowd_simulator_Visual_and_behavioral_fidelity_for_the_generation_of_crowd_datasets_8a2ac3cace_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_unicrowd_simulator_visual_and_behavioral_fidelity.pdf",
+        "path": "assets/pdf/2024_unicrowd_simulator_visual_and_behavioral_fidelity.pdf"
+      },
+      "summary": "UniCrowd is a simulation framework for generating crowd datasets with both visual realism and plausible behavior. It combines controllable virtual environments with crowd motion modeling to support training and evaluation of crowd analysis methods.",
+      "website": "",
+      "code": "https://github.com/mmlab-cv/UniCrowd"
+    },
+    {
+      "title": "Dynamic crowd routing: Rl-driven crowd dynamics",
+      "authors": "Daniele Della Pietra, Nicola Garau, Nicola Conci, and Fabrizio Granelli",
+      "precise_date": "2024/10/2",
+      "venue": "2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP)",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:8k81kl-MbHgC",
+      "bibtex": "@inproceedings{della2024dynamic,\n  title={Dynamic crowd routing: Rl-driven crowd dynamics},\n  author={Della Pietra, Daniele and Garau, Nicola and Conci, Nicola and Granelli, Fabrizio},\n  booktitle={2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP)},\n  pages={1--6},\n  year={2024},\n  organization={IEEE}\n}",
+      "pdf_url": "https://ieeexplore.ieee.org/iel8/10743173/10743194/10743283.pdf",
+      "first_page_png": "paper_first_pages\\Dynamic_crowd_routing_Rl-driven_crowd_dynamics_90c0aa26a3_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_dynamic_crowd_routing_rl-driven_crowd_dynamics.pdf",
+        "path": "assets/pdf/2024_dynamic_crowd_routing_rl-driven_crowd_dynamics.pdf"
+      },
+      "summary": "Dynamic Crowd Routing uses reinforcement learning to control and adapt crowd motion in simulated environments. The framework learns routing policies that influence collective pedestrian dynamics, enabling more flexible and responsive crowd simulations.",
+      "website": "https://mmlab-cv.github.io/DynamicCrowdRouting/",
+      "code": "https://github.com/mmlab-cv/DynamicCrowdRouting"
+    },
+    {
+      "title": "Skeleton-aware motion retargeting using masked pose modeling",
+      "authors": "Giulia Martinelli, Nicola Garau, Niccolò Bisagno, and Nicola Conci",
+      "precise_date": "2024/9/29",
+      "venue": "European Conference on Computer Vision",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:Zph67rFs4hoC",
+      "bibtex": "@inproceedings{martinelli2024skeleton,\n  title={Skeleton-aware motion retargeting using masked pose modeling},\n  author={Martinelli, Giulia and Garau, Nicola and Bisagno, Niccol{\\'o} and Conci, Nicola},\n  booktitle={European Conference on Computer Vision},\n  pages={287--303},\n  year={2024},\n  organization={Springer}\n}",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-92387-6_21.pdf",
+      "first_page_png": "paper_first_pages\\Skeleton-aware_motion_retargeting_using_masked_pose_modeling_e8cfe21bef_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_skeleton-aware_motion_retargeting_using_masked_pos.pdf",
+        "path": "assets/pdf/2024_skeleton-aware_motion_retargeting_using_masked_pos.pdf"
+      },
+      "summary": "This work proposes skeleton-aware motion retargeting through masked pose modeling. It learns motion transfer between different skeletons by masking and reconstructing pose sequences, encouraging the model to capture motion semantics rather than relying on a fixed topology.",
+      "website": "https://mmlab-cv.github.io/skeleton-aware-motion-retargeting/",
+      "code": "https://github.com/mmlab-cv/skeleton-aware-motion-retargeting"
+    },
+    {
+      "title": "Epoch: Jointly estimating the 3d pose of cameras and humans",
+      "authors": "Nicola Garau, Giulia Martinelli, Niccolò Bisagno, Denis Tomè, and Carsten Stoll",
+      "precise_date": "2024/9/29",
+      "venue": "European Conference on Computer Vision",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:roLk4NBRz8UC",
+      "bibtex": "@inproceedings{garau2024epoch,\n    title={Epoch: Jointly estimating the 3d pose of cameras and humans},\n    author={Garau, Nicola and Martinelli, Giulia and Bisagno, Niccolò and Tomè, Denis and Stoll, Carsten},\n    booktitle={European Conference on Computer Vision},\n    pages={1--18},\n    year={2024},\n    organization={Springer}\n  }\n  ",
+      "pdf_url": "https://arxiv.org/pdf/2406.19726",
+      "first_page_png": "paper_first_pages\\Epoch_Jointly_estimating_the_3d_pose_of_cameras_and_humans_551b6d0246_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_epoch_jointly_estimating_the_3d_pose_of_cameras_an.pdf",
+        "path": "assets/pdf/2024_epoch_jointly_estimating_the_3d_pose_of_cameras_an.pdf"
+      },
+      "summary": "EPOCH is a framework for monocular 3D human pose estimation that uses the full perspective camera model instead of common weak-perspective approximations. It jointly estimates camera parameters and 3D pose through a lifter network and a regressor network, establishing an unambiguous 2D-to-3D relationship.",
+      "website": "https://carstenepic.github.io/epoch/",
+      "code": ""
+    },
+    {
+      "title": "Peek-a-bot: learning through vision in unreal engine",
+      "authors": "Daniele Della Pietra, Nicola Garau, Nicola Conci, and Fabrizio Granelli",
+      "precise_date": "2024",
+      "venue": "The Eurographics Association",
+      "year": "2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:5nxA0vEk-isC",
+      "bibtex": "@inproceedings{10.2312:stag.20241330,\n    booktitle = {Smart Tools and Applications in Graphics - Eurographics Italian Chapter Conference},\n    editor = {Caputo, Ariel and Garro, Valeria and Giachetti, Andrea and Castellani, Umberto and Dulecha, Tinsae Gebrechristos},\n    title = {{Peek-a-bot: learning through vision in Unreal Engine}},\n    author = {Pietra, Daniele Della and Garau, Nicola and Conci, Nicola and Granelli, Fabrizio},\n    year = {2024},\n    publisher = {The Eurographics Association},\n    ISSN = {2617-4855},\n    ISBN = {978-3-03868-265-3},\n    DOI = {10.2312/stag.20241330}\n  }",
+      "pdf_url": "https://mmlab-cv.github.io/Peek-a-bot/static/assets/PeekABot.pdf",
+      "first_page_png": "paper_first_pages\\Peek-a-bot_learning_through_vision_in_unreal_engine_6e01ce2042_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2024_peek-a-bot_learning_through_vision_in_unreal_engin.pdf",
+        "path": "assets/pdf/2024_peek-a-bot_learning_through_vision_in_unreal_engin.pdf"
+      },
+      "summary": "Peek-a-bot is an Unreal Engine framework for visual learning with an embodied agent. It lets an agent actively observe a scene and learn from rendered visual feedback, supporting experiments that connect perception, action, and simulation.",
+      "website": "https://mmlab-cv.github.io/Peek-a-bot/",
+      "code": "https://github.com/mmlab-cv/Peek-a-bot"
+    },
+    {
+      "title": "A Unified Simulation Framework for Visual and Behavioral Fidelity in Crowd Analysis",
+      "authors": "Niccolò Bisagno, Nicola Garau, Antonio Luigi Stefani, and Nicola Conci",
+      "precise_date": "2023/12/5",
+      "venue": "arXiv preprint arXiv:2312.02613",
+      "year": "2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:LkGwnXOMwfcC",
+      "bibtex": "@article{bisagno2023unified,\n    title={A Unified Simulation Framework for Visual and Behavioral Fidelity in Crowd Analysis},\n    author={Bisagno, Niccolò and Garau, Nicola and Stefani, Antonio Luigi and Conci, Nicola},\n    journal={arXiv preprint arXiv:2312.02613},\n    year={2023}\n  }\n  ",
+      "pdf_url": "https://arxiv.org/pdf/2312.02613",
+      "first_page_png": "paper_first_pages\\A_Unified_Simulation_Framework_for_Visual_and_Behavioral_Fidelity_in_Crowd_Analysis_b321d728bb_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2023_a_unified_simulation_framework_for_visual_and_beha.pdf",
+        "path": "assets/pdf/2023_a_unified_simulation_framework_for_visual_and_beha.pdf"
+      },
+      "summary": "This work presents a unified crowd simulation framework that targets both visual fidelity and behavioral realism. It is designed to generate synthetic crowd data with realistic appearance, motion, and interaction patterns for crowd analysis research.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "CapsulePose: A variational CapsNet for real-time end-to-end 3D human pose estimation",
+      "authors": "Nicola Garau and Nicola Conci",
+      "precise_date": "2023/2/28",
+      "venue": "Neurocomputing",
+      "year": "2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:WF5omc3nYNoC",
+      "bibtex": "@article{garau2023capsulepose,\n  title={CapsulePose: A variational CapsNet for real-time end-to-end 3D human pose estimation},\n  author={Garau, Nicola and Conci, Nicola},\n  journal={Neurocomputing},\n  volume={523},\n  pages={81--91},\n  year={2023},\n  publisher={Elsevier}\n}",
+      "pdf_url": "https://pdf.sciencedirectassets.com/271597/1-s2.0-S0925231222X00490/1-s2.0-S0925231222015351/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIGYU9sUrHmcsMeB4qiNrME3WhGF79bfr%2FzMOEdYkv5yiAiBnmnkHzJCdTVWRpVmyyaMR6h3ldjsEmEfSt64vjETJwyq7BQi4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIM73Gf5askC3EuSasIKo8Fqf2e6uhlVSYRBQLdstIulCtr75buvP8VGhiLdy82fXl572w%2Fzidv4OOU38v0SzmimF3xX%2F%2BGEp%2FH1aFM%2B82ajGJI5mLGOnFkJ4R8637kp5qnq3y0hirsE8Bd%2Ff9uZcnZI8N%2B27QbO6pg2DyeJIsABkvEeSJ92FwO%2BTa0pBR9twsYJ6sywIMbcm4e2Pmsyj%2FD4%2FYrZp%2FwwPK%2F3cYlLaMt%2BXkLVQNvl99op4i8Ezdh1SMclue1%2FLOFmVW9d%2FF9pwKnAOrNqmedV4NXSGvkREWbhyq3F1kB2CMJIE14HKFC3%2Fobxee5Zg94oZ6KYDSGDqSTZ6O6lwmjEjSLKEYqs93ryS76jYIFysCSZLzEyR77EeJKAufMOZ8CsUUNkdJsQv3o%2BkGP04VW%2BFEJMOSgRVJmZ8wQYZf1s4UFYg87R3YVTVf1Hdiyv1sns4JrL%2BX1R9dDBK%2Fs%2BaV7kMMFs06Fe2DHJNaXWFmHua9qw%2BA0kWCRkyMd%2BPzxnXP1rfhbql5%2Bjx5aMuvHgDXdw%2FuOAetkFp6auoOvRihB5oyeg8r2RNv%2Fp7ENEXwkbt9yavMY2b%2BuVCe1kXhdq1V%2FWWjT6ms0FeFsnukVaWh68pAgGJe2Wru%2FKYcUwFHcXQr%2BFvi1pqxS5%2BCio7lGaIWq%2FkseDzV%2BKt03YvMoKaoG1%2Fpbx4dsJ2%2B4MI9LCXKkMRzhVQrGq6gJvpvs1NWHNa6txsAbX29aw3bQ8X7cjrdQ%2Fi3AXuqepwCQkGfGb71A2mWIIiPbhjCk%2FfaDFsQjeEoEMPB9xwR7tssGWUKoijDkffkSISK1R7J7buGIQIUTiT3O2gpq70exQe6sz0H8OyHJvyWr0AIKSzE0WlYrOzpxbkqdjw%2F0nIirajC11tPRBjqyAW0vJ0pddGKvhA8jaACJpae%2B9fiKcD42wsuBGGi3neD7yBn6u2yRdS6EHsVUlHys5vH924wLqbVGavlVknj2fV0L96OXiEDwwhXowPqKqfyRfyE99ddK1dn0l0ZjLKzU80OPA4FsCqcBPPJDvVal5CStgacyUJPQ8ZyQwa041c8eS7ohVTbdOpHHO45rIUJNMEWwLlBRgmfucRI5bp0HmXqTLx82mqSJnDWWtNcNMM1zxeU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260619T075535Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYZ7J7FBKA%2F20260619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5cc8bb642fa085e2a3d09acf7cfbedc548fe8fd37991a9af9c8c732c92d5140f&hash=16016ca1a3727c526ee94351169fe8a3c705752fcc58598bacc80ed5f558b60b&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0925231222015351&tid=spdf-6b7b7cf4-b70a-45a0-a5bd-4c55ba1180d7&sid=04ee1cf8658a7143fd08f6e665b72c19c426gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1312005f0753005d070754&rr=a0e0f8ec2e6ef7c6&cc=it",
+      "first_page_png": "paper_first_pages\\CapsulePose_A_variational_CapsNet_for_real-time_end-to-end_3D_human_pose_estimation_4b20eb6d6c_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2023_capsulepose_a_variational_capsnet_for_real-time_en.pdf",
+        "path": "assets/pdf/2023_capsulepose_a_variational_capsnet_for_real-time_en.pdf"
+      },
+      "summary": "CapsulePose is a real-time end-to-end 3D human pose estimation method based on variational capsule networks. It exploits capsule representations to model pose structure and viewpoint-related transformations directly from visual input.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Capsules as viewpoint learners for human pose estimation",
+      "authors": "Nicola Garau and Nicola Conci",
+      "precise_date": "2023/2/13",
+      "venue": "arXiv preprint arXiv:2302.06194",
+      "year": "2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:ufrVoPGSRksC",
+      "bibtex": "@article{garau2023capsules,\n  title={Capsules as viewpoint learners for human pose estimation},\n  author={Garau, Nicola and Conci, Nicola},\n  journal={arXiv preprint arXiv:2302.06194},\n  year={2023}\n}",
+      "pdf_url": "https://arxiv.org/pdf/2302.06194",
+      "first_page_png": "paper_first_pages\\Capsules_as_viewpoint_learners_for_human_pose_estimation_308b2dabd6_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2023_capsules_as_viewpoint_learners_for_human_pose_esti.pdf",
+        "path": "assets/pdf/2023_capsules_as_viewpoint_learners_for_human_pose_esti.pdf"
+      },
+      "summary": "This paper investigates capsule networks as viewpoint-aware learners for human pose estimation. It studies how capsule representations can encode transformations and help pose models reason about body configuration under changing camera viewpoints.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "A multimodal framework for the evaluation of patients’ weaknesses, supporting the design of customised AAL solutions",
+      "authors": "Nicola Garau, Damiano Fruet, Alessandro Luchetti, Francesco De Natale, and Nicola Conci",
+      "precise_date": "2022/9/15",
+      "venue": "Expert Systems with Applications",
+      "year": "2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:W7OEmFMy1HYC",
+      "bibtex": "@article{garau2022multimodal,\n  title={A multimodal framework for the evaluation of patients’ weaknesses, supporting the design of customised AAL solutions},\n  author={Garau, Nicola and Fruet, Damiano and Luchetti, Alessandro and De Natale, Francesco and Conci, Nicola},\n  journal={Expert Systems with Applications},\n  volume={202},\n  pages={117172},\n  year={2022},\n  publisher={Elsevier}\n}",
+      "pdf_url": "https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417422X00110/1-s2.0-S0957417422005607/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDwv3JG6f9oFhlYfCmwMTTm8epHW27dwIZ0LWIOmzw10gIgDY9gUaMaRcqS9HIFPqVSyFsBO7ANYxDMnXtL1hlekeAqvAUIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDFSOZqSqN5ELZE2mOSqQBbZuVW8CqzuGSS6OwywG%2FQAslE0qd0atcm3ZXEqITPRq6uiGreAKAf71dvahv5T4f57LoP7BNdFNhbON5NTCYqX7a3CfTQNALCxG9h5VYnJQYf1fdEvieC%2FkfsGXkzREJLR8OrB%2BvJ6CrE%2BRC4wfLYnPdtG6NdTLjwx8EfpDZwdLnnWoBYdvc%2BzbbaCqbjM2Dqk%2BpSS04qdSb7E0WRLkleHw00gKYvZ7gAo7%2F%2BAJbwhLSGkcNDnlh4afit%2BO%2BuSZNo3k4GYr1NcQglRNTpoi%2BjwCoQskBA7GfXJOA7mIzWxey8V2WqSRkEsNKjSfg3WfuKCvKc%2FgnJ7PxO8koz0rnvRWuGzgXTKk%2F7S5kZ0eJL2TL4yvMp0lG3Bd2mKqBi2hnCocNpabuH8E5%2F1IpvRj8hrRNmOshanHkU%2BAsBRI3ir5u5QpasI0vxeH9vRfVDZSbfJXHWMYJabYyrg4qg%2FIDdc33WaCh9jbG755OdpnGNu9C%2BZdqOdHkVFO0XEOLbP9CJHVdVmf8W4DG9VbJthC2KKjjT6EYD6VzTl4VT7hQMXzw8GFaNbXhTCInunPNc45g2DljoMZBOL%2B9zmzzpGDxF5ZVhXSr6kKQIOvjQpOlJVz9WjpmaHW9hJ9NVchCOEikNCb%2F52%2FX76aMwwpIfS3WY5OIicdtcGwuosU1ZiLbpOdGzqmd9Y2risYQR7SPI4ViPdwAZe6zVCXy8h8iCuCUlBMEFUzW%2BeADevKfQbAdMWnTill6H9xj%2BoEQTAP2UWknA5SsvU40L0nAfVneL9Sjm%2FEa0ZBuZZmmWiwcfUWNf9Ezd5JwqCsfTWo4pcHoCUCzRegPsSE7SQw%2FHFRzeGwiBxoSD9mR4wcpCCBYpQ7ipzEMI7g09EGOrEBFonSxG0qD%2FDE7%2F3Q20WLKvfUIfQzhsuisT1rJfD%2F%2FN4V2hYF%2FRDTJYJRAz6sEhPlGyaJ1RpLMnuT73%2B%2FPLhbrRvQYmjEjxxJGK79EtEqHt4wDa9jxgS8pfUHKMT9sRvqFeAz%2BEl2xQbDIRncZaZHth%2FLc2MbAHrAVkl4c9YX43sDv2656uGPnlQ%2F9Bj3xjtQFA4STlIGQRav0OKIUp5JeKo9ZfWO9XTjjYBwK44DTG3y&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260619T075600Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYXO6AIN7L%2F20260619%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=acfe0090616fec47a20def952a75b74e9256fc4a91e5dc86d061c2bcc21ba972&hash=f765cd7d9cb13241127eb02033a8693d0e8e080558a9607e7ab869e24f94a3f7&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417422005607&tid=spdf-edd04729-70d1-4a8a-86e2-39af8ce4cb01&sid=04ee1cf8658a7143fd08f6e665b72c19c426gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1312005f0753005c5a5252&rr=a0e0f9864afff7c6&cc=it",
+      "first_page_png": "paper_first_pages\\A_multimodal_framework_for_the_evaluation_of_patients_weaknesses_supporting_the_design_of_customised_AAL_solutions_e49fed1fd4_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2022_a_multimodal_framework_for_the_evaluation_of_patie.pdf",
+        "path": "assets/pdf/2022_a_multimodal_framework_for_the_evaluation_of_patie.pdf"
+      },
+      "summary": "This paper proposes a multimodal assessment framework for evaluating patient weaknesses in Ambient Assisted Living scenarios. It combines different sensing and analysis modalities to support the design of personalized assistive solutions.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Networked Musical XR: where’s the limit? A preliminary investigation on the joint use of point clouds and low-latency audio communication",
+      "authors": "Luca Turchet, Nicola Garau, and Nicola Conci",
+      "precise_date": "2022/9/6",
+      "venue": "Proceedings of the 17th International Audio Mostly Conference",
+      "year": "2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:YsMSGLbcyi4C",
+      "bibtex": "@inproceedings{turchet2022networked,\n  title={Networked Musical XR: where’s the limit? A preliminary investigation on the joint use of point clouds and low-latency audio communication},\n  author={Turchet, Luca and Garau, Nicola and Conci, Nicola},\n  booktitle={Proceedings of the 17th International Audio Mostly Conference},\n  pages={226--230},\n  year={2022}\n}",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3561212.3561237",
+      "first_page_png": "paper_first_pages\\Networked_Musical_XR_wheres_the_limit_A_preliminary_investigation_on_the_joint_use_of_point_clouds_and_low-latency_audio_b0c2afb0cf_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2022_networked_musical_xr_wheres_the_limit_a_preliminar.pdf",
+        "path": "assets/pdf/2022_networked_musical_xr_wheres_the_limit_a_preliminar.pdf"
+      },
+      "summary": "Networked Musical XR studies the feasibility of shared extended-reality music performance using point clouds and low-latency audio. It investigates the practical limits of combining volumetric visual presence with time-sensitive musical communication.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Design of Viewpoint-Equivariant Networks to Improve Human Pose Estimation",
+      "authors": "Nicola Garau",
+      "precise_date": "2022/5/31",
+      "venue": "Università degli studi di Trento",
+      "year": "2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:_FxGoFyzp5QC",
+      "bibtex": "@article{garau2022design,\n    title={Design of Viewpoint-Equivariant Networks to Improve Human Pose Estimation},\n    author={Garau, Nicola},\n    year={2022},\n    publisher={Università degli studi di Trento}\n  }\n  ",
+      "pdf_url": "https://tesidottorato.depositolegale.it/static/PDF/web/viewer.jsp",
+      "first_page_png": "paper_first_pages\\Design_of_Viewpoint-Equivariant_Networks_to_Improve_Human_Pose_Estimation.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2022_design_of_viewpoint-equivariant_networks_to_improv.pdf",
+        "path": "assets/pdf/2022_design_of_viewpoint-equivariant_networks_to_improv.pdf"
+      },
+      "summary": "This thesis investigates viewpoint-equivariant neural architectures for improving human pose estimation. It focuses on models that explicitly reason about camera viewpoint changes, especially through capsule-based and geometry-aware representations.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Gender recognition from 3D shape parameters",
+      "authors": "Giulia Martinelli, Nicola Garau, and Nicola Conci",
+      "precise_date": "2022/5/23",
+      "venue": "International Conference on Image Analysis and Processing",
+      "year": "2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:eQOLeE2rZwMC",
+      "bibtex": "@inproceedings{martinelli2022gender,\n    title={Gender recognition from 3D shape parameters},\n    author={Martinelli, Giulia and Garau, Nicola and Conci, Nicola},\n    booktitle={International Conference on Image Analysis and Processing},\n    pages={203--214},\n    year={2022},\n    organization={Springer}\n  }\n  ",
+      "pdf_url": "https://iris.unitn.it/bitstream/11572/354565/1/TCAP2021___Gender_Recognition.pdf",
+      "first_page_png": "paper_first_pages\\Gender_recognition_from_3D_shape_parameters_8b156cb27b_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2022_gender_recognition_from_3d_shape_parameters.pdf",
+        "path": "assets/pdf/2022_gender_recognition_from_3d_shape_parameters.pdf"
+      },
+      "summary": "This paper studies gender recognition using 3D body shape parameters rather than images alone. It analyzes how compact parametric body representations can support classification while abstracting away pose, texture, and acquisition conditions.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Interpretable part-whole hierarchies and conceptual-semantic relationships in neural networks",
+      "authors": "Nicola Garau, Niccolò Bisagno, Zeno Sambugaro, and Nicola Conci",
+      "precise_date": "2022",
+      "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "year": "2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:Y0pCki6q_DkC",
+      "bibtex": "@inproceedings{garau2022interpretable,\n  title={Interpretable part-whole hierarchies and conceptual-semantic relationships in neural networks},\n  author={Garau, Nicola and Bisagno, Niccol{\\'o} and Sambugaro, Zeno and Conci, Nicola},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={13689--13698},\n  year={2022}\n}",
+      "pdf_url": "http://openaccess.thecvf.com/content/CVPR2022/papers/Garau_Interpretable_Part-Whole_Hierarchies_and_Conceptual-Semantic_Relationships_in_Neural_Networks_CVPR_2022_paper.pdf",
+      "first_page_png": "paper_first_pages\\Interpretable_part-whole_hierarchies_and_conceptual-semantic_relationships_in_neural_networks_c5736b49c6_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2022_interpretable_part-whole_hierarchies_and_conceptua.pdf",
+        "path": "assets/pdf/2022_interpretable_part-whole_hierarchies_and_conceptua.pdf"
+      },
+      "summary": "This paper introduces a method for extracting interpretable part-whole hierarchies from neural networks. It reveals how learned features compose into semantic concepts, making internal representations more understandable for visual recognition models.",
+      "website": "https://mmlab-cv.github.io/Agglomeratorplusplus/",
+      "code": "https://github.com/mmlab-cv/Agglomerator"
+    },
+    {
+      "title": "DECA: Deep viewpoint-Equivariant human pose estimation using Capsule Autoencoders",
+      "authors": "Nicola Garau, Niccolo Bisagno, Piotr Bròdka, and Nicola Conci",
+      "precise_date": "2021",
+      "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "year": "2021",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:zYLM7Y9cAGgC",
+      "bibtex": "@inproceedings{garau2021deca,\n  title={DECA: Deep viewpoint-Equivariant human pose estimation using Capsule Autoencoders},\n  author={Garau, Nicola and Bisagno, Niccolo and Br{\\'o}dka, Piotr and Conci, Nicola},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n  pages={11677--11686},\n  year={2021}\n}",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Garau_DECA_Deep_Viewpoint-Equivariant_Human_Pose_Estimation_Using_Capsule_Autoencoders_ICCV_2021_paper.pdf",
+      "first_page_png": "paper_first_pages\\DECA_Deep_viewpoint-Equivariant_human_pose_estimation_using_Capsule_Autoencoders_2f5fbf5ad6_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2021_deca_deep_viewpoint-equivariant_human_pose_estimat.pdf",
+        "path": "assets/pdf/2021_deca_deep_viewpoint-equivariant_human_pose_estimat.pdf"
+      },
+      "summary": "DECA is a viewpoint-equivariant approach to human pose estimation based on capsule autoencoders. It learns representations that disentangle pose content from viewpoint transformations, improving generalization across camera views.",
+      "website": "",
+      "code": "https://github.com/mmlab-cv/DECA"
+    },
+    {
+      "title": "Panoptop: a framework for generating viewpoint-invariant human pose estimation datasets",
+      "authors": "Nicola Garau, Giulia Martinelli, Piotr Bròdka, Niccolo Bisagno, and Nicola Conci",
+      "precise_date": "2021",
+      "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "year": "2021",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:Tyk-4Ss8FVUC",
+      "bibtex": "@inproceedings{garau2021panoptop,\n  title={Panoptop: a framework for generating viewpoint-invariant human pose estimation datasets},\n  author={Garau, Nicola and Martinelli, Giulia and Br{\\'o}dka, Piotr and Bisagno, Niccolo and Conci, Nicola},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n  pages={234--242},\n  year={2021}\n}",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021W/DSC/papers/Garau_PanopTOP_A_Framework_for_Generating_Viewpoint-Invariant_Human_Pose_Estimation_Datasets_ICCVW_2021_paper.pdf",
+      "first_page_png": "paper_first_pages\\Panoptop_a_framework_for_generating_viewpoint-invariant_human_pose_estimation_datasets_ff55884e7f_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2021_panoptop_a_framework_for_generating_viewpoint-inva.pdf",
+        "path": "assets/pdf/2021_panoptop_a_framework_for_generating_viewpoint-inva.pdf"
+      },
+      "summary": "PanopTOP is a framework for generating human pose datasets with systematic viewpoint variation. It supports viewpoint-invariant pose estimation research by creating controlled multi-view training data from human motion and camera transformations.",
+      "website": "",
+      "code": "https://github.com/mmlab-cv/PanopTOP"
+    },
+    {
+      "title": "Fast automatic camera network calibration through human mesh recovery",
+      "authors": "Nicola Garau, Francesco G. B. De Natale, and Nicola Conci",
+      "precise_date": "2020/12",
+      "venue": "Journal of Real-Time Image Processing",
+      "year": "2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:UeHWp8X0CEIC",
+      "bibtex": "@article{garau2020fast,\n  title={Fast automatic camera network calibration through human mesh recovery},\n  author={Garau, Nicola and De Natale, Francesco GB and Conci, Nicola},\n  journal={Journal of Real-Time Image Processing},\n  volume={17},\n  number={6},\n  pages={1757--1768},\n  year={2020},\n  publisher={Springer}\n}",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11554-020-01002-w.pdf",
+      "first_page_png": "paper_first_pages\\Fast_automatic_camera_network_calibration_through_human_mesh_recovery_0cb91c4571_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2020_fast_automatic_camera_network_calibration_through.pdf",
+        "path": "assets/pdf/2020_fast_automatic_camera_network_calibration_through.pdf"
+      },
+      "summary": "This paper proposes a fast automatic calibration method for camera networks using recovered human meshes. By aligning human shape and pose evidence across views, it estimates camera geometry with minimal manual intervention.",
+      "website": "",
+      "code": "https://github.com/A7ocin/SkalibratorV2"
+    },
+    {
+      "title": "Unsupervised continuous camera network pose estimation through human mesh recovery",
+      "authors": "Nicola Garau and Nicola Conci",
+      "precise_date": "2019/9/9",
+      "venue": "Proceedings of the 13th International Conference on Distributed Smart Cameras",
+      "year": "2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:d1gkVwhDpl0C",
+      "bibtex": "@inproceedings{garau2019unsupervised,\n  title={Unsupervised continuous camera network pose estimation through human mesh recovery},\n  author={Garau, Nicola and Conci, Nicola},\n  booktitle={Proceedings of the 13th International Conference on Distributed Smart Cameras},\n  pages={1--6},\n  year={2019}\n}",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3349801.3349803",
+      "first_page_png": "paper_first_pages\\Unsupervised_continuous_camera_network_pose_estimation_through_human_mesh_recovery_c9ba32724e_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2019_unsupervised_continuous_camera_network_pose_estima.pdf",
+        "path": "assets/pdf/2019_unsupervised_continuous_camera_network_pose_estima.pdf"
+      },
+      "summary": "This work addresses unsupervised, continuous pose estimation for camera networks using human mesh recovery. It uses people moving through the scene as calibration cues, enabling camera pose refinement without dedicated calibration targets.",
+      "website": "",
+      "code": "https://github.com/A7ocin/Skalibrator"
+    },
+    {
+      "title": "Virtual crowds: An LSTM-based framework for crowd simulation",
+      "authors": "Niccolò Bisagno, Nicola Garau, Andrea Montagner, and Nicola Conci",
+      "precise_date": "2019/9/2",
+      "venue": "International Conference on Image Analysis and Processing",
+      "year": "2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:u-x6o8ySG0sC",
+      "bibtex": "@inproceedings{bisagno2019virtual,\n  title={Virtual crowds: An LSTM-based framework for crowd simulation},\n  author={Bisagno, Niccol{\\'o} and Garau, Nicola and Montagner, Andrea and Conci, Nicola},\n  booktitle={International Conference on Image Analysis and Processing},\n  pages={117--127},\n  year={2019},\n  organization={Springer}\n}",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-30642-7_11.pdf?pdf=inline%20link",
+      "first_page_png": "paper_first_pages\\Virtual_crowds_An_LSTM-based_framework_for_crowd_simulation_4da681c9c5_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2019_virtual_crowds_an_lstm-based_framework_for_crowd_s.pdf",
+        "path": "assets/pdf/2019_virtual_crowds_an_lstm-based_framework_for_crowd_s.pdf"
+      },
+      "summary": "Virtual Crowds is an LSTM-based framework for simulating pedestrian trajectories. It learns motion patterns from data and generates plausible crowd behavior, supporting synthetic crowd analysis and virtual environment applications.",
+      "website": "",
+      "code": "https://github.com/A7ocin/PPOL_playground"
+    },
+    {
+      "title": "Technological infrastructure supports new paradigm of care for healthy aging: The living lab Ausilia",
+      "authors": "Andrea Grisenti, Giandomenico Nollo, Michela Dalprá, Francesco De Natale, Mariolino De Cecco, Andrea Francesconi, Alberto Fornaser, Paolo Tomasin, Nicola Garau, Luca Guandalini, and et al.",
+      "precise_date": "2019/6/19",
+      "venue": "Italian Forum of Ambient Assisted Living",
+      "year": "2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:IjCSPb-OGe4C",
+      "bibtex": "@inproceedings{grisenti2019technological,\n  title={Technological infrastructure supports new paradigm of care for healthy aging: The living lab Ausilia},\n  author={Grisenti, Andrea and Nollo, Giandomenico and Dalpr{\\'a}, Michela and Natale, Francesco De and Cecco, Mariolino De and Francesconi, Andrea and Fornaser, Alberto and Tomasin, Paolo and Garau, Nicola and Guandalini, Luca and others},\n  booktitle={Italian Forum of Ambient Assisted Living},\n  pages={85--99},\n  year={2019},\n  organization={Springer}\n}",
+      "pdf_url": "https://iris.unitn.it/retrieve/07a4db33-9ea8-4623-84e0-a0b937d82925/978-3-030-63107-9_7.pdf",
+      "first_page_png": "paper_first_pages\\Technological_infrastructure_supports_new_paradigm_of_care_for_healthy_aging_The_living_lab_Ausilia_d8613db4f1_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2019_technological_infrastructure_supports_new_paradigm.pdf",
+        "path": "assets/pdf/2019_technological_infrastructure_supports_new_paradigm.pdf"
+      },
+      "summary": "This paper describes the Ausilia living lab as a technological infrastructure for healthy aging and assistive care. It presents an environment where sensing, monitoring, and user-centered technologies can be tested for new care models.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Joint trajectory and fatigue analysis in wheelchair users",
+      "authors": "Maddalena Sebastiani, Nicola Garau, Francesco De Natale, and Nicola Conci",
+      "precise_date": "2019",
+      "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops",
+      "year": "2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:2osOgNQ5qMEC",
+      "bibtex": "@inproceedings{sebastiani2019joint,\n  title={Joint trajectory and fatigue analysis in wheelchair users},\n  author={Sebastiani, Maddalena and Garau, Nicola and De Natale, Francesco and Conci, Nicola},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops},\n  pages={0--0},\n  year={2019}\n}",
+      "pdf_url": "http://openaccess.thecvf.com/content_ICCVW_2019/papers/ACVR/Sebastiani_Joint_Trajectory_and_Fatigue_Analysis_in_Wheelchair_Users_ICCVW_2019_paper.pdf",
+      "first_page_png": "paper_first_pages\\Joint_trajectory_and_fatigue_analysis_in_wheelchair_users_ce021cadc2_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2019_joint_trajectory_and_fatigue_analysis_in_wheelchai.pdf",
+        "path": "assets/pdf/2019_joint_trajectory_and_fatigue_analysis_in_wheelchai.pdf"
+      },
+      "summary": "This paper analyzes wheelchair-user trajectories together with fatigue-related information. It aims to connect movement behavior and physical effort, supporting better assessment of mobility, accessibility, and user condition.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Enhancing character posing by a sketch-based interaction",
+      "authors": "Simone Barbieri, Nicola Garau, Wenyu Hu, Zhidong Xiao, and Xiaosong Yang",
+      "precise_date": "2016/7/24",
+      "venue": "ACM SIGGRAPH 2016 Posters",
+      "year": "2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&citation_for_view=r8BzAfcAAAAJ:u5HHmVD_uO8C",
+      "bibtex": "@incollection{barbieri2016enhancing,\n  title={Enhancing character posing by a sketch-based interaction},\n  author={Barbieri, Simone and Garau, Nicola and Hu, Wenyu and Xiao, Zhidong and Yang, Xiaosong},\n  booktitle={ACM SIGGRAPH 2016 Posters},\n  pages={1--2},\n  year={2016}\n}",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/2945078.2945134",
+      "first_page_png": "paper_first_pages\\Enhancing_character_posing_by_a_sketch-based_interaction_484cf82ab3_page1.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2016_enhancing_character_posing_by_a_sketch-based_inter.pdf",
+        "path": "assets/pdf/2016_enhancing_character_posing_by_a_sketch-based_inter.pdf"
+      },
+      "summary": "This paper presents a sketch-based interface for character posing. It allows users to control or refine character poses through simple drawn input, making 3D posing more intuitive and accessible.",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Designing Modular and Multi-Modal Urban-Scale Digital Twins",
+      "authors": "Nicola Garau, Daniele Della Pietra, Nicola Conci, and Fabrizio Granelli",
+      "precise_date": "",
+      "venue": "Available at SSRN 5212681",
+      "year": "",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=r8BzAfcAAAAJ&cstart=20&pagesize=80&citation_for_view=r8BzAfcAAAAJ:KlAtU1dfN6UC",
+      "bibtex": "",
+      "pdf_url": "",
+      "first_page_png": "",
+      "summary": "This work discusses the design of modular, multi-modal digital twins at urban scale. It focuses on integrating heterogeneous data, simulation components, and sensing modalities into a flexible architecture for city-scale analysis and decision support.",
+      "website": "",
+      "code": ""
+    }
+  ]
+}

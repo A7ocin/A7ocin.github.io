@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicola Garau</title>
+  <meta name="author" content="Nicola Garau">
+  <meta name="description" content="Research Scientist at Meta Reality Labs working on photorealistic digital humans, parametric body models, neural rendering, and real-time avatar systems. Creator of MetaHuman Bodies, ML Deformer, and co-founder of The Captury.">
+  <meta name="keywords" content="research, computer-graphics, computer-vision, machine-learning, motion-capture, performance-capture, ai, digital humans, neural rendering, avatars, parametric body model">
+  <link rel="canonical" href="https://mindlink.industries/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* == Reset & Base == */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1e1e1e;
+      --ink-light: #4a4a4a;
+      --ink-muted: #707070;
+      --bg: #f5f5f5;
+      --bg-card: #ffffff;
+      --accent: #2d6cdf;
+      --accent-hover: #1e52b8;
+      --border: #e0e0e0;
+      --border-light: #ececec;
+      --serif: 'Source Serif 4', 'Georgia', serif;
+      --sans: 'DM Sans', 'Helvetica Neue', sans-serif;
+      --max-w: 860px;
+      --side-pad: 24px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--ink);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
+    a:hover { color: var(--accent-hover); }
+    img { max-width: 100%; display: block; }
+
+    /* == Header == */
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.85);
+      /* background: rgba(30, 30, 30, 0.85); */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    body.dark-mode header {
+      background: rgba(30, 30, 30, 0.85);
+      /* background: rgba(255, 255, 255, 0.85); */
+    }
+
+    .header-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 18px var(--side-pad);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-name {
+      font-family: var(--serif);
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+
+    nav a {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--ink-light);
+      margin-left: 28px;
+      position: relative;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px; left: 0;
+      width: 0; height: 1.5px;
+      background: var(--accent);
+      transition: width 0.2s ease;
+    }
+
+    nav a:hover { color: var(--ink); }
+    nav a:hover::after { width: 100%; }
+
+    /* == Main == */
+    main { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--side-pad); }
+
+    /* == Hero == */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 48px;
+      align-items: start;
+      padding: 56px 0 48px;
+    }
+
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+    }
+
+    .hero p { color: var(--ink-light); margin-bottom: 14px; font-size: 0.97rem; }
+    .hero p:last-child { margin-bottom: 0; }
+
+    .profile-photo {
+      width: 220px; height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid var(--border);
+    }
+
+    /* == Section Headings == */
+    .section-title {
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 32px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--ink);
+      display: inline-block;
+    }
+
+    section { padding: 48px 0; }
+
+    /* == Projects == */
+    .project {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 32px;
+      align-items: start;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--border-light);
+    }
+    .project:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .project img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; border: 1px solid var(--border); }
+    .project h3 { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; margin-bottom: 10px; }
+    .project p { font-size: 0.93rem; color: var(--ink-light); line-height: 1.6; }
+
+    /* == Featured badge == */
+    .pub.featured { position: relative; }
+    .featured-badge {
+      display: inline-block;
+      font-size: 0.7rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--accent); border: 1px solid var(--accent);
+      border-radius: 3px; padding: 1px 7px; margin-bottom: 5px; opacity: 0.85;
+    }
+
+    /* == Expertise tags == */
+    .expertise { margin-top: 20px; }
+    .expertise-label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); margin-bottom: 8px; }
+    .expertise-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag { font-size: 0.78rem; color: var(--ink-light); background: var(--border-light); border: 1px solid var(--border); border-radius: 4px; padding: 3px 9px; line-height: 1.4; }
+
+    /* == News == */
+    .news-section { padding: 0 0 40px; border-bottom: 1px solid var(--border-light); }
+    .news-title { font-family: var(--serif); font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); margin-bottom: 14px; }
+    .news-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .news-list li { display: flex; align-items: baseline; gap: 12px; font-size: 0.9rem; }
+    .news-date { font-size: 0.78rem; color: var(--ink-muted); white-space: nowrap; min-width: 72px; }
+    .news-list a { color: var(--ink-light); border-bottom: 1px solid var(--border); transition: color 0.15s, border-color 0.15s; }
+    .news-list a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* == Publications == */
+    .pub-year { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; margin: 36px 0 16px; color: var(--accent); padding-left: 12px; border-left: 3px solid var(--accent); }
+    .pub-year:first-of-type { margin-top: 0; }
+    .pub { display: grid; grid-template-columns: 120px 1fr; gap: 20px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--border-light); }
+    .pub:last-child { border-bottom: none; }
+    .pub-thumb { width: 180px; max-height: 270px; object-fit: contain; border-radius: 6px; border: 1px solid var(--border); }
+    .pub-info h4 { font-family: var(--serif); font-size: 1rem; font-weight: 600; line-height: 1.35; margin-bottom: 4px; }
+    .pub-authors { font-size: 0.85rem; color: var(--ink-light); margin-bottom: 3px; }
+    .authors-collapsed { display: none; }
+    .authors-toggle { background: none; border: none; color: var(--accent); font-size: 0.8rem; font-weight: 600; cursor: pointer; padding: 0; margin-left: 4px; }
+    .authors-toggle:hover { color: var(--accent-hover); }
+    .pub-venue { font-size: 0.83rem; color: var(--ink-muted); font-style: italic; margin-bottom: 6px; }
+    .pub-desc { font-size: 0.87rem; color: var(--ink-light); line-height: 1.55; margin-bottom: 8px; }
+    .pub-links a { display: inline-block; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 10px; border: 1px solid var(--border); border-radius: 4px; margin-right: 6px; margin-bottom: 4px; color: var(--accent); transition: background 0.15s, color 0.15s, border-color 0.15s; }
+    .pub-links a:hover { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+    /* == Theme Toggle == */
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .theme-toggle {
+      margin-left: 42px;
+    }
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px; height: 36px;
+      padding: 0;
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: var(--ink-light);
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+    .theme-toggle:hover { color: var(--ink); transform: scale(1.1); }
+    .theme-toggle svg {
+      width: 20px; height: 20px;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .theme-toggle .moon-icon { display: block; }
+    .theme-toggle .sun-icon { display: none; }
+    body.dark-mode .theme-toggle .moon-icon { display: none; }
+    body.dark-mode .theme-toggle .sun-icon { display: block; }
+
+    /* == Dark Mode == */
+    body.dark-mode {
+      --bg: #1e1e1e;
+      --bg-card: #282828;
+      --ink: #e8e4df;
+      --ink-light: #b5b0a8;
+      --ink-muted: #8a857d;
+      --accent: #7eb8e0;
+      --accent-hover: #a8d0ee;
+      --border: #3a3a3a;
+      --border-light: #2e2e2e;
+    }
+
+    /* == Back to top FAB == */
+    #back-to-top {
+      position: fixed;
+      bottom: 32px; right: 32px;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--ink-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease, color 0.15s, border-color 0.15s, background 0.15s;
+      z-index: 200;
+    }
+    #back-to-top.visible { opacity: 1; pointer-events: auto; }
+    #back-to-top:hover { color: var(--accent); border-color: var(--accent); background: var(--bg); }
+    #back-to-top svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    .bibtex-btn {
+      display: inline-block;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      font-weight: 525;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 4px 10px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      margin-right: 6px;
+      margin-bottom: 2px;
+      color: var(--accent);
+      background: none;
+      cursor: pointer;
+      line-height: 1.5;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .bibtex-btn:hover {
+      background: var(--accent);
+      color: var(--bg);
+      border-color: var(--accent);
+    }
+
+    /* == BibTeX Modal == */
+    .bibtex-modal {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      z-index: 300;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .bibtex-modal-content {
+      background: var(--bg-card);
+      border-radius: 8px;
+      padding: 24px;
+      min-width: 90%;
+      max-width: 100vw;
+      max-height: 85vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .bibtex-close {
+      position: absolute;
+      top: 16px; right: 20px;
+      font-size: 32px;
+      cursor: pointer;
+      color: var(--ink-muted);
+      transition: color 0.2s;
+      line-height: 1;
+    }
+    .bibtex-close:hover { color: var(--ink); }
+    .bibtex-modal-content pre {
+      background: #1e1e1e;
+      padding: 16px;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin-bottom: 16px;
+    }
+    .bibtex-modal-content code {
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      color: #d4d4d4;
+      white-space: pre;
+      line-height: 1.5;
+    }
+    .bibtex-modal-content button {
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .bibtex-modal-content button:hover { background: var(--accent-hover); }
+    .bibtex-modal {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 300;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .bibtex-modal-content {
+      background: var(--bg-card);
+      border-radius: 8px;
+      padding: 24px;
+      max-width: 600px;
+      width: 90%;
+      max-height: 80vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .bibtex-close {
+      position: absolute;
+      top: 12px; right: 16px;
+      font-size: 24px;
+      cursor: pointer;
+      color: var(--ink-muted);
+      transition: color 0.2s;
+    }
+    .bibtex-close:hover { color: var(--ink); }
+    .bibtex-modal-content pre {
+      background: #1e1e1e;
+      padding: 16px;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin-bottom: 16px;
+    }
+    .bibtex-modal-content code {
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+      color: #d4d4d4;
+      white-space: pre-wrap;
+    }
+    .bibtex-modal-content button {
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .bibtex-modal-content button:hover { background: var(--accent-hover); }
+
+    /* == Footer == */
+    footer { border-top: 1px solid var(--border); margin-top: 32px; }
+    .footer-inner { max-width: var(--max-w); margin: 0 auto; padding: 32px var(--side-pad) 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { color: var(--ink-muted); font-size: 0.88rem; font-weight: 500; }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-copy { font-size: 0.82rem; color: var(--ink-muted); }
+
+    /* == Mobile Nav Toggle == */
+    .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 6px; }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--ink); margin: 5px 0; transition: transform 0.2s, opacity 0.2s; }
+
+    /* == Responsive == */
+    @media (max-width: 700px) {
+      .hero { grid-template-columns: 1fr; gap: 24px; padding: 36px 0 32px; }
+      .hero .hero-photo-col { order: -1; text-align: center; }
+      .profile-photo { width: 160px; height: 160px; border-radius: 50%; margin: 0 auto; }
+      .hero h1 { font-size: 1.8rem; }
+      .project { grid-template-columns: 1fr; gap: 16px; }
+      .pub { grid-template-columns: 80px 1fr; gap: 14px; }
+      .pub-thumb { width: 120px; max-height: 180px; object-fit: contain; }
+      .nav-toggle { display: block; }
+      nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 16px var(--side-pad); }
+      nav.open { display: block; }
+      nav a { display: block; margin: 0 0 12px 0; font-size: 1rem; }
+      #back-to-top { bottom: 20px; right: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <a href="#" class="site-name">Nicola Garau</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <a href="#grants">Grants</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="sun-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Bio -->
+    <section class="hero">
+      <div>
+        <h1>Nicola Garau</h1>
+        <p>I am an Assistant Professor at the <a href="https://webapps.unitn.it/du/en/Persona/PER0194071/Didattica">University of Trento</a>, working on computer graphics and inverse graphics. I am the current holder of the <a href="https://unitn.coursecatalogue.cineca.it/corsi/2025/10885/insegnamenti/2025/50876_650875_96274/2025/50876?annoOrdinamento=2025">Computer Graphics masters' course</a>.</p>
+        <p>I earned my PhD in Computer Vision from the <a href="https://www.disi.unitn.it/">University of Trento</a>, under the supervision of <a href="https://webapps.unitn.it/du/it/Persona/PER0003698/Curriculum">Nicola Conci</a>, where I worked on viewpoint-equivariant neural networks for human pose estimation and brain-inspired models for interpretable representation learning. Earlier, I was an intern at the <a href="https://github.com/CMU-Perceptual-Computing-Lab">Perceptual Computing Lab</a> at Carnegie Mellon University, working on <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a>, and later at <a href="https://www.epicgames.com">Epic Games</a>, under the supervision of <a href="https://mindlink.industries/">Carsten Stoll</a>, <a href="https://denistome.github.io/">Denis Tomè</a> and <a href="https://www.iainm.com/">Iain Matthews</a>, working on monocular unsupervised 3D human pose estimation in the wild.</p>
+        <p>My current research connects real-time graphics, synthetic data, human motion, and learning inside 3D environments. I was involved in a national project at the <a href="https://www.supercomputing-icsc.it/en/icsc-home/">ICSC National Centre for HPC, Big Data and Quantum Computing</a>, where I worked on large-scale urban digital twins, and I developed Unreal Engine-based pipelines such as <a href="https://mmlab-cv.github.io/Infinity/">To Infinity and Beyond</a> for GPU-driven synthetic data generation and processing.</p>
+        <p>My work has appeared at venues including <a href="https://cvpr.thecvf.com/">CVPR</a>, <a href="https://iccv.thecvf.com/">ICCV</a>, <a href="https://eccv.ecva.net/">ECCV</a>, <a href="https://s2025.siggraph.org/">SIGGRAPH</a>, and Eurographics. I am interested in building graphics systems that do not only render the world, but also simulate, measure, and understand it for machine learning and inverse graphics.</p>
+      </div>
+      <div class="hero-photo-col">
+        <img src="assets/img/profile.png" alt="Nicola Garau" class="profile-photo">
+        <div class="expertise">
+          <p class="expertise-label">Expertise</p>
+          <div class="expertise-tags">
+            <span class="tag">Computer Graphics</span>
+            <span class="tag">Neural Rendering</span>
+            <span class="tag">Inverse Graphics</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Human Avatars</span>
+            <span class="tag">Character Animation</span>
+            <span class="tag">Reinforcement Learning</span>
+            <span class="tag">3D Game Engines</span>
+            <span class="tag">Computer Vision</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent -->
+    <div class="news-section">
+      <p class="news-title">Recent</p>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">June 2026</span>
+          <span><a href="https://github.com/mmlab-cv/SDFoam">SDFoam code released</a> &mdash; The official code for SDFoam is now available on GitHub!</span>
+        </li>
+        <li>
+          <span class="news-date">June 2026</span>
+          <span><a href="assets/pdf/2026_sdfoam_poster.pdf">SDFoam poster at CVPR 2026</a> &mdash; I attended CVPR 2026 to present a poster for SDFoam</span>
+        </li>
+        <li>
+          <span class="news-date">May 2026</span>
+          <span><a href="assets/pdf/2026_tackling_cross-lingual_generalization.pdf">Tackling Cross-Lingual Generalization in SER via Linguistic Grouping</a> &mdash; accepted  at EUSIPCO 2026</span>
+        </li>
+        <li>
+          <span class="news-date">May 2026</span>
+          <span><a href="https://edas.info/p34829?utm_source=&utm_medium=&utm_term=&utm_content=&utm_campaign=">Edge AI Empowered UAV with Onboard Semantic Extraction for Monitoring Applications</a> &mdash; accepted at IEEE MetroAeroSpace</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Teaching -->
+    <div class="news-section">
+      <p class="news-title">Teaching</p>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">2026/2027</span>
+          <span><a href="https://unitn.coursecatalogue.cineca.it/corsi/2026/10885/insegnamenti/2026/51372_658012_96274/2026/51372?coorte=2026&schemaid=9862">Fourth edition of the Computer Graphics course</a> &mdash; now available to students at the University of Trento</span>
+        </li>
+        <li>
+          <span class="news-date">2025/2026</span>
+          <span><a href="https://unitn.coursecatalogue.cineca.it/corsi/2025/10885/insegnamenti/2025/50876_650875_96274/2025/50876?coorte=2025&schemaid=8987">Third edition of the Computer Graphics course</a> &mdash; now available to students at the University of Trento</span>
+        </li>
+        <li>
+          <span class="news-date">2024/2025</span>
+          <span><a href="https://unitn.coursecatalogue.cineca.it/corsi/2024/10756/insegnamenti/2024/50523_647092_96274/2023/50523?coorte=2024&schemaid=9180">Second edition of the Computer Graphics course</a> &mdash; now available to students at the University of Trento</span>
+        </li>
+        <li>
+          <span class="news-date">2023/2024</span>
+          <span><a href="https://unitn.coursecatalogue.cineca.it/corsi/2023/10756/insegnamenti/2023/50175_642623_96274/2023/50175?coorte=2023&schemaid=8339">First edition of the Computer Graphics course</a> &mdash; now available to students at the University of Trento</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Grants -->
+    <section id="grants">
+      <h2 class="section-title">Grants</h2>
+      <div class="project">
+        <img src="assets/img/nvidia.jpg" alt="NVIDIA Academic Grant for Researchers" style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+        <div>
+          <h3>NVIDIA Academic Grant for Researchers</h3>
+          <p>Received the NVIDIA Academic Grant for Researchers, supporting research in GPU-driven memory-sharing pipelines for generating and processing virtually infinite synthetic data directly from real-time 3D environments.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div id="projects-container"></div>
+    </section>
+    
+    <!-- Publications -->
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
+      <div id="publications-container"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="mailto:nicola.garau@unitn.it">Email</a>
+        <a href="https://scholar.google.com/citations?user=r8BzAfcAAAAJ&hl=it&oi=ao">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/alocin/">LinkedIn</a>
+        <a href="https://dblp.org/pid/182/7148.html">DBLP</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Nicola Garau</p>
+    </div>
+  </footer>
+
+  <!-- Back to top FAB -->
+  <button id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- JS -->
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('nav').classList.remove('open');
+      });
+    });
+
+    function toggleAuthors(id, btn) {
+      const el = document.getElementById(id);
+      const isCollapsed = el.classList.contains('authors-collapsed');
+      if (isCollapsed) {
+        btn.dataset.more = btn.textContent;
+        el.classList.remove('authors-collapsed');
+        btn.textContent = 'show less';
+      } else {
+        el.classList.add('authors-collapsed');
+        btn.textContent = btn.dataset.more;
+      }
+    }
+
+    const fab = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      fab.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    fab.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Theme toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+      const hour = new Date().getHours();
+      const isDayTime = hour >= 6 && hour < 18;
+      
+      // Auto-detect based on local time
+      let initialTheme = isDayTime ? 'light' : 'dark';
+      
+      document.body.classList.toggle('dark-mode', initialTheme === 'dark');
+      
+      themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+      });
+    }
+
+    // Load projects from separate file
+    fetch('projects.html')
+      .then(response => response.text())
+      .then(data => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data, 'text/html');
+        const projectsContent = doc.querySelector('#projects-include');
+        if (projectsContent) {
+          document.getElementById('projects-container').appendChild(projectsContent);
+        }
+      })
+      .catch(err => console.error('Failed to load projects:', err));
+
+    // Load publications from separate file
+    fetch('publications.html')
+      .then(response => response.text())
+      .then(data => {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data, 'text/html');
+        const publicationsContent = doc.querySelector('#publications-include');
+        if (publicationsContent) {
+          document.getElementById('publications-container').appendChild(publicationsContent);
+          initBibTeXButtons();
+        }
+      })
+      .catch(err => console.error('Failed to load publications:', err));
+
+    function initBibTeXButtons() {
+      const bibtexButtons = document.querySelectorAll('.bibtex-btn');
+      bibtexButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const bibtexText = btn.dataset.bibtex;
+          if (bibtexText) {
+            showBibTeXModal(bibtexText);
+          }
+        });
+      });
+    }
+
+    function showBibTeXModal(bibtexText) {
+      const modal = document.createElement('div');
+      modal.className = 'bibtex-modal';
+      modal.innerHTML = `
+        <div class="bibtex-modal-content">
+          <pre><code>${escapeHtml(bibtexText)}</code></pre>
+          <button id="copy-bibtex">Copy to clipboard</button>
+        </div>
+      `;
+      
+      document.body.appendChild(modal);
+      modal.style.display = 'flex';
+      
+      // Close on click outside
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.remove();
+        }
+      });
+      
+      
+      // Copy to clipboard
+      const copyBtn = modal.querySelector('#copy-bibtex');
+      copyBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(bibtexText).then(() => {
+          copyBtn.textContent = 'Copied!';
+          setTimeout(() => {
+            copyBtn.textContent = 'Copy to clipboard';
+          }, 2000);
+        });
+      });
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+# ------------------------------------------------------------
+# Python cache / build artifacts
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+
+# ------------------------------------------------------------
+# Browser automation profiles
+# These contain cookies, sessions, cache, login state, and local browser data.
+# Do not commit them.
+# ------------------------------------------------------------
+chrome_debug_profile/
+chrome_scholar_profile/
+playwright_scholar_profile/
+
+# ------------------------------------------------------------
+# Generated Scholar output
+# ------------------------------------------------------------
+scholar_articles_output.json
+
+# Generated first-page paper previews
+paper_first_pages/
+
+# Temporary / partial downloads
+*.crdownload
+*.tmp
+*.pdf.tmp
+
+# ------------------------------------------------------------
+# Local config
+# This may contain personal Scholar IDs, paths, or scraping settings.
+# Keep an example config tracked instead.
+# ------------------------------------------------------------
+scholar_config.json
+
+# Keep example config if you create one
+!scholar_config.example.json
+
+# ------------------------------------------------------------
+# OS / editor files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
