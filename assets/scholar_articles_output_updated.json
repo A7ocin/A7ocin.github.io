@@ -22,6 +22,25 @@
       "code": "https://github.com/mmlab-cv/SDFoam"
     },
     {
+      "title": "VolHuMe: a High-Resolution Large Scale Dataset of Volumetric Human Meshes",
+      "authors": "Giulia Martinelli, Niccolò Bisagno, Nicola Garau, Esa Rahtu, and Nicola Conci",
+      "precise_date": "2026",
+      "venue": "2026 IEEE International Conference on Image Processing (ICIP)",
+      "year": "2026",
+      "url": "https://giuli13.github.io/volhume-website/",
+      "bibtex": "@dataset{volhume2026,\n  title  = {VolHuMe: A High-Resolution Large Scale Dataset of Volumetric Human Meshes},\n  author={Martinelli, Giulia, and Bisagno, Niccolò and Garau, Nicola and Rahtu, Esa and Conci, Nicola},\n  booktitle={2026 IEEE International Conference on Image Processing (ICIP)},\n  year={2026},\n  organization={IEEE}\n  }",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/3DMV/papers/Rech_SDFoam_Signed-Distance_Foam_for_explicit_surface_reconstruction_CVPRW_2026_paper.pdf",
+      "first_page_png": "paper_first_pages\\Volhume.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2026_volhume.pdf",
+        "path": "assets/pdf/2026_volhume.pdf"
+      },
+      "summary": "VolHuMe is a high-resolution large-scale dataset of volumetric human meshes captured with a professional close-range volumetric studio. VolHuMe provides 104 subjects and 156K annotated frames with rich supervision for 4D human reconstruction, rendering, and avatar research.",
+      "website": "https://giuli13.github.io/volhume-website/",
+      "code": "https://giuli13.github.io/volhume-website/"
+    },
+    {
       "title": "Tackling Cross-Lingual Generalization in Speech Emotion Recognition via Linguistic Grouping: A Spotlight on Neo-Latin Languages",
       "authors": "Francesco Ardan Dal Rì, Nicola Garau, and Nicola Conci",
       "precise_date": "2026/05/11",
