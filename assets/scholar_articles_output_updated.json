@@ -29,7 +29,7 @@
       "year": "2026",
       "url": "https://giuli13.github.io/volhume-website/",
       "bibtex": "@dataset{volhume2026,\n  title  = {VolHuMe: A High-Resolution Large Scale Dataset of Volumetric Human Meshes},\n  author={Martinelli, Giulia, and Bisagno, Niccolò and Garau, Nicola and Rahtu, Esa and Conci, Nicola},\n  booktitle={2026 IEEE International Conference on Image Processing (ICIP)},\n  year={2026},\n  organization={IEEE}\n  }",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/3DMV/papers/Rech_SDFoam_Signed-Distance_Foam_for_explicit_surface_reconstruction_CVPRW_2026_paper.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2606.23062",
       "first_page_png": "paper_first_pages\\Volhume.png",
       "pdf_downloaded": true,
       "pdf_file": {
@@ -56,6 +56,25 @@
         "path": "assets/pdf/2026_tackling_cross-lingual_generalization.pdf"
       },
       "summary": "",
+      "website": "",
+      "code": ""
+    },
+    {
+      "title": "Edge AI Empowered UAV with Onboard Semantic Extraction for Monitoring Applications",
+      "authors": "Paolo Addesso, Marco Carpentiero, Nicola Garau, Giovanni Giambene, Fabrizio Granelli, Vincenzo Matta, Phuc Tinh Vo, and Riccardo Zambon",
+      "precise_date": "2026/04/22",
+      "venue": "IEEE MetroAeroSpace 2026",
+      "year": "2026",
+      "url": "",
+      "bibtex": "",
+      "pdf_url": "assets/pdf/2026_metroaerospace.pdf",
+      "first_page_png": "paper_first_pages\\2026_metroaerospace.png",
+      "pdf_downloaded": true,
+      "pdf_file": {
+        "filename": "2026_metroaerospace.pdf",
+        "path": "assets/pdf/2026_metroaerospace.pdf"
+      },
+      "summary": "This work integrates remote sensing, embedded processing, and 5G connectivity on a UAV platform as an end-to-end intelligent monitoring solution. The system leverages RGB and multispectral (MS) sensors to execute AI tasks directly onboard.",
       "website": "",
       "code": ""
     },
